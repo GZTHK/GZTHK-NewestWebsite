@@ -9,6 +9,9 @@ body {
     font: 12pt "Arimo";
     background-image: url("../@img/bg.png");
     background-attachment: fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 a {
@@ -253,4 +256,5 @@ main ol {
     .nav-menu.active {
         transform: translateY(0);
     }
+
 }
